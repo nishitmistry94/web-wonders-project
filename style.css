@@ -6,6 +6,7 @@
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 .brand{
@@ -28,6 +29,7 @@ a{
     padding: 10px;
     border-bottom: 2px solid #cf363e;
     background: rgba(255, 255, 255, 0.9);
+    z-index:2;
 }
 .lens{
     color:black;
@@ -90,16 +92,18 @@ a{
 .circle{
     font-size: 20px;
     color: royalblue;
+    background-color:transparent;
 }
 .like{
     color: royalblue;
     font-size: 18px;
+    background-color:transparent;
 }
 
 .cart{
     color: royalblue;
     font-size: 19px;
-
+    background-color:transparent;
 }
 
 .icon{
@@ -113,14 +117,14 @@ a{
     align-items: center;
     justify-content: space-around;
     padding: 50px 40px;
-    padding-top: 90px;
+    padding-top: 180px;
 }
 .hero{
     height: 52vh;
 }
 .heading1{
     font-size: 42px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 .btn{
     background-color: #cf363e;
@@ -130,14 +134,14 @@ a{
 
 }
 
-.featuredProduct{
+.heading{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-#productUnderline{
-    width:100px;
+.underline{
+    width:50%;
    background-color:#cf363e;
    height: 3px;
    border:0px;
@@ -146,9 +150,12 @@ a{
 .section2{
     /* border: 3px solid rgb(255, 0, 0); */
 }
+.section3{
+    margin-top: 30px;
+}
 .productrow1{
     display: flex;
-    margin:40px  35px 0px 35px;
+    margin:40px  40px 0px 40px;
     padding: 20px;
     justify-content:space-around;
     /* border: 3px solid rgb(91, 21, 255); */
@@ -159,18 +166,24 @@ a{
     margin:0px 35px;
     /* border: 3px solid rgb(0, 255, 98); */
 }
-.productbox
+.productrow3{
+    display: flex;
+    justify-content:space-around;
+    margin:40px  40px 0px 40px;
+    padding: 20px;
+}
+.productBox
 {
     display: flex;
     justify-content: center;
     flex-direction: column;
     /* border: 3px solid black; */
 }
-.image
+.image1
 {
     width:inherit;
 }
-.imageContainer
+.imageContainer1
 {
     height:40vh;
     width: 18vw;
@@ -178,6 +191,35 @@ a{
     justify-content: center;
     align-items:center;
     /* border: 3px solid #d400ff; */
-    background-color:rgb(230, 230, 230) ;
+    background-color:#EDEDED ;
+    border-radius:3px;
+    transition: 900ms ease;
 }
-
+.imageContainer1:hover,.imageContainer2:hover{
+    position:relative;
+    bottom:7px;
+    right:7px;
+    box-shadow: 7px 7px 10px #d8d8d8;
+}
+.image2
+{
+    width:inherit;
+}
+.imageContainer2
+{
+    height:25vh;
+    width: 15vw;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    /* border: 3px solid #d400ff; */
+    background-color:#EDEDED ;
+    border-radius:3px;
+    transition: 900ms ease;
+}
+.smartBand{
+    margin-top: 50px;
+    background-image: linear-gradient(270deg ,#D0373F,#DF8090,#EDECEC);
+    width: auto;
+    height: 500px;
+}
