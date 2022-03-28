@@ -275,4 +275,13 @@ a{
     border: 2px solid black;
     width:30%;
     height:80%;
+    display: flex;
+    text-align: center;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.profileImage{
+    height:50px;
+border-radius: 50%;
 }
