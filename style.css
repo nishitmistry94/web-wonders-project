@@ -102,11 +102,13 @@ a{
     font-size: 18px;
     justify-content: space-between;
     margin: 4px 4px 0px 4px;
+    transition: transform 0.3s ease;
 }
 .trial:hover{
     position: relative;
-    bottom: 2px;
-    right: 2px;
+    /* bottom: 2px;
+    right: 2px; */
+    transform: translate(-2px,-2px);
 }
 .circle{
     font-size: 20px;
@@ -153,6 +155,7 @@ a{
     border-radius: 20px;
     border: 0px;
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 .btn::after,.btn::before {
     content:"";
@@ -166,7 +169,7 @@ a{
     bottom:0;
     z-index: -2;
     transition: transform 0.3s ease;
-    cursor: pointer;
+
 }
 .btn:hover{
     transform: translate(-12px,-12px);
@@ -243,12 +246,14 @@ a{
     /* border: 3px solid #d400ff; */
     background-color:#EDEDED ;
     border-radius:3px;
-    transition: 300ms ease;
+    /* transition: 300ms ease; */
+    transition: transform 0.3s ease;
 }
 .imageContainer1:hover,.imageContainer2:hover{
-    position:relative;
+    /* position:relative;
     bottom:7px;
-    right:7px;
+    right:7px; */
+    transform: translate(-7px,-7px);
     box-shadow: 7px 7px 10px #d8d8d8;
 }
 .image2
@@ -301,7 +306,7 @@ a{
     /* border: 2px solid black; */
     width:auto;
     height:500px;
-    margin:30px;
+    margin:30px 60px;
     display:flex;
     justify-content:space-around;
 }
@@ -312,7 +317,7 @@ a{
     box-shadow: 0px 0px 29px 5px #d8d8d8;
     /* border: 5px double #cf363e; */
     /* border: 4px dotted #cf363e; */
-    width:30%;
+    width:28%;
     height:80%;
     display: flex;
     text-align: center;
@@ -320,10 +325,12 @@ a{
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
+    transition: transform 0.3s ease;
 }
 .ratingContainer:hover{
     position: relative;
-    bottom: 15px;
+    /* bottom: 15px; */
+    transform: translate(-12px,-12px);
 }
 .profileImageContainer{
     height:95px;
@@ -354,6 +361,7 @@ align-items: center;
     margin: 30px;
     height: 10vh;
     padding: 15px;
+    transition: transform 0.3s ease;
 
 }
 .icons{
@@ -364,7 +372,8 @@ align-items: center;
 }
 .partner-logo:hover{
     position: relative;
-    bottom: 15px;
+    /* bottom: 15px; */
+    transform: translate(-6px,-6px);
     cursor: pointer;
     /* border-bottom: 3px solid #cf363e; */
     
@@ -373,8 +382,10 @@ align-items: center;
     height: 20vh;
     display: flex;
     justify-content: center;
-    padding-top: 65px;
+    align-items: center;
+    padding-top: 40px;
     padding-left: 150px;
+    padding-bottom:25px;
     /* border: 2px solid; */
     border-top: 4px solid #cf363e;
     margin-bottom: 20px;
@@ -382,6 +393,7 @@ align-items: center;
 .footer-link{
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     margin-right: 120px;
     /* border: 2px solid; */
     width: 10vw;
@@ -396,4 +408,5 @@ align-items: center;
 .social-media{
     margin: 10px;
     font-size: 20px;
+    cursor: pointer;
 }
