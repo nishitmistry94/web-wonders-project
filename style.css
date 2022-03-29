@@ -368,7 +368,7 @@ align-items: center;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* margin-top: 90px; */
+    margin-top: 90px;
 }
 .partner-logo:hover{
     position: relative;
