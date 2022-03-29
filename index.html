@@ -1,301 +1,391 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>TripleS Store</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="FONTS/all.min.css" />
+		<!-- font libraries -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,800;1,100;1,300;1,400;1,800&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="FONTS/all.min.js"></script>
+	</head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>TripleS Store</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="style.css" />
-	<link rel="stylesheet" href="FONTS/all.min.css" />
-	<!-- font libraries -->
-	<link rel="preconnect" href="https://fonts.gstatic.com" />
-	<link
-		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,800;1,100;1,300;1,400;1,800&display=swap"
-		rel="stylesheet" />
-	<script src="FONTS/all.min.js"></script>
-</head>
-
-<body>
-	<div class="navbar">
-		<div class="logo"><i class="fas fa-volleyball-ball icon"></i></div>
-		<h2 class="brand">TripleS Store</h2>
-		<div class="search">
-			<input id="search" type="text" placeholder="Search..." />
-			<a href="#"><i class="fas fa-search lens"></i></a>
+	<body>
+		<div class="navbar">
+			<div class="logo"><i class="fas fa-volleyball-ball icon"></i></div>
+			<h2 class="brand">TripleS Store</h2>
+			<div class="search">
+				<input id="search" type="text" placeholder="Search..." />
+				<a href="#"><i class="fas fa-search lens"></i></a>
+			</div>
+			<div class="nav-link">
+				<a href="#">
+					<div class="trial">
+						<i class="far fa-user-circle circle"></i>
+						<div class="links">Log in</div>
+					</div>
+				</a>
+				<a href="#">
+					<div class="trial">
+						<i class="far fa-heart like"></i>
+						<div class="links">Wishlist</div>
+					</div>
+				</a>
+				<a href="#">
+					<div class="trial">
+						<i class="fas fa-shopping-cart cart"></i>
+						<div class="links">Cart</div>
+					</div>
+				</a>
+			</div>
 		</div>
-		<div class="nav-link">
-			<a href="#">
-				<div class="trial">
-					<i class="far fa-user-circle circle"></i>
-					<div class="links">Log in</div>
+
+		<div class="section1">
+			<div>
+				<h1 class="heading1">All it takes is all you’ve got</h1>
+				<br />
+				<div class="para">
+					So why hold back , get your sports equipment in less than a day and
+					enhance <br />
+					your sport journey with our world class selection of sports equipment.
 				</div>
-			</a>
-			<a href="#">
-				<div class="trial">
-					<i class="far fa-heart like"></i>
-					<div class="links">Wishlist</div>
+				<br />
+				<div><button class="btn">SHOP NOW</button></div>
+			</div>
+			<div>
+				<img src="assets/hero-header.png" alt="Image Not Found" class="hero" />
+			</div>
+		</div>
+		<div class="section2">
+			<div class="heading">
+				<h2>Featured Products</h2>
+				<hr class="underline" />
+			</div>
+			<div class="productrow1">
+				<div class="productBox">
+					<a href="#">
+						<div class="imageContainer1">
+							<img
+								src="assets/mrf-bat.png"
+								alt="Image not found"
+								class="image1"
+							/>
+						</div>
+						<div>MRF cricket bat</div>
+						<div>
+							<i class="fas fa-star red"></i><i class="fas fa-star red"></i
+							><i class="fas fa-star red"></i><i class="fas fa-star red"></i
+							><i class="far fa-star red"></i>
+						</div>
+						<div>$60.00</div>
+					</a>
 				</div>
-			</a>
-			<a href="#">
-				<div class="trial">
-					<i class="fas fa-shopping-cart cart"></i>
-					<div class="links">Cart</div>
+				<div class="productBox">
+					<a href="#">
+						<div class="imageContainer1">
+							<img
+								src="assets/nike-football.png"
+								alt="Image not found"
+								class="image1"
+							/>
+						</div>
+						<div>Nike Football</div>
+						<div>
+							<i class="fas fa-star red"></i><i class="fas fa-star red"></i
+							><i class="fas fa-star red"></i
+							><i class="fas fa-star-half-alt red"></i
+							><i class="far fa-star red"></i>
+						</div>
+						<div>$80.00</div>
+					</a>
 				</div>
-			</a>
+				<div class="productBox">
+					<a href="#">
+						<div class="imageContainer1">
+							<img
+								src="assets/kookabura-ball.png"
+								alt="Image not found"
+								class="image1"
+							/>
+						</div>
+						<div>Kookaburra Cricket Ball</div>
+						<div>
+							<i class="fas fa-star red"></i><i class="fas fa-star red"></i
+							><i class="fas fa-star red"></i><i class="fas fa-star red"></i
+							><i class="fas fa-star-half-alt red"></i>
+						</div>
+						<div>$20.00</div>
+					</a>
+				</div>
+				<div class="productBox">
+					<a href="#">
+						<div class="imageContainer1">
+							<img
+								src="assets/nike-shoes.png"
+								alt="Image not found"
+								class="shoes"
+							/>
+						</div>
+						<div>Nike Sport Shoes</div>
+						<div>
+							<i class="fas fa-star red"></i><i class="fas fa-star red"></i
+							><i class="fas fa-star red"></i><i class="fas fa-star red"></i
+							><i class="far fa-star red"></i>
+						</div>
+						<div>$30.00</div>
+					</a>
+				</div>
+			</div>
+			<div class="productrow2">
+				<div class="productBox">
+					<a href="#">
+						<div class="imageContainer1">
+							<img
+								src="assets/jersey.png"
+								alt="Image not found"
+								class="image1"
+							/>
+						</div>
+						<div>Cricket Jersey</div>
+						<div>
+							<i class="fas fa-star red"></i><i class="fas fa-star red"></i
+							><i class="fas fa-star red"></i><i class="fas fa-star red"></i
+							><i class="fas fa-star red"></i>
+						</div>
+						<div>$30.00</div>
+					</a>
+				</div>
+				<div class="productBox">
+					<a href="#">
+						<div class="imageContainer1">
+							<img
+								src="assets/nike-shoes.png"
+								alt="Image not found"
+								class="shoes"
+							/>
+						</div>
+						<div>Nike Sport Shoes</div>
+						<div>
+							<i class="fas fa-star red"></i><i class="fas fa-star red"></i
+							><i class="fas fa-star red"></i><i class="fas fa-star red"></i
+							><i class="far fa-star red"></i>
+						</div>
+						<div>$30.00</div>
+					</a>
+				</div>
+			</div>
 		</div>
-	</div>
+		<div class="section3">
+			<div class="heading">
+				<h2>New Arrivals</h2>
+				<hr class="underline" />
+			</div>
+			<div class="productrow3">
+				<div class="productBox">
+					<a href="#">
+						<div class="imageContainer2">
+							<img
+								src="assets/nike-shoes.png"
+								alt="Image not found"
+								class="image2"
+							/>
+						</div>
+						<div>Nike Sport Shoes</div>
+						<div>
+							<i class="fas fa-star red"></i><i class="fas fa-star red"></i
+							><i class="fas fa-star red"></i><i class="fas fa-star red"></i
+							><i class="far fa-star red"></i>
+						</div>
+						<div>$30.00</div>
+					</a>
+				</div>
+				<div class="productBox">
+					<a href="#">
+						<div class="imageContainer2">
+							<img
+								src="assets/nike-shoes.png"
+								alt="Image not found"
+								class="image2"
+							/>
+						</div>
+						<div>Nike Sport Shoes</div>
+						<div>
+							<i class="fas fa-star red"></i><i class="fas fa-star red"></i
+							><i class="fas fa-star red"></i><i class="fas fa-star red"></i
+							><i class="far fa-star red"></i>
+						</div>
+						<div>$30.00</div>
+					</a>
+				</div>
+				<div class="productBox">
+					<a href="#">
+						<div class="imageContainer2">
+							<img
+								src="assets/nike-shoes.png"
+								alt="Image not found"
+								class="image2"
+							/>
+						</div>
+						<div>Nike Sport Shoes</div>
+						<div>
+							<i class="fas fa-star red"></i><i class="fas fa-star red"></i
+							><i class="fas fa-star red"></i><i class="fas fa-star red"></i
+							><i class="far fa-star red"></i>
+						</div>
+						<div>$30.00</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="smartBand">
+			<div><img src="assets/mi-exclusive.png" alt="Image not found" /></div>
+			<div class="bandDescription">
+				<div id="des1">Exclusively Available on TripleS Store</div>
+				<div id="des2">Smart Band 4</div>
+				<div id="des3">
+					A must have accessories to track your calories and reach your fitness
+					goal. Get 50% discount on using code phoenix.
+				</div>
+				<div id="des4"><button class="btn">SHOP NOW</button></div>
+			</div>
+		</div>
+		<div class="rating">
+			<div class="ratingContainer">
+				<i class="fa fa-quote-left fa-3x fa-pull-left red"></i>
+				<div>
+					Sports equipment? <br />
+					Just TripleS it !
+				</div>
+				<div>
+					<i class="fas fa-star red"></i><i class="fas fa-star red"></i
+					><i class="fas fa-star red"></i><i class="fas fa-star red"></i
+					><i class="fas fa-star red"></i> <br />
+				</div>
+				<div class="profileImageContainer">
+					<img
+						class="profileImage"
+						src="assets/Nishit.jpeg"
+						alt="Image Not found"
+					/>
+				</div>
+				<h1>Nishit Mistry</h1>
+			</div>
 
-	<div class="section1">
-		<div>
-			<h1 class="heading1">All it takes is all you’ve got</h1>
-			<br />
-			<div class="para">
-				So why hold back , get your sports equipment in less than a day and
-				enhance <br> your sport journey with our world class selection
-				of sports equipment.
+			<div class="ratingContainer">
+				<i class="fa fa-quote-left fa-3x fa-pull-left red"></i>
+				<div>
+					Genuine , Longlasting and cheap!
+					<br />
+					That's what TripleS provides.
+				</div>
+				<div>
+					<i class="fas fa-star red"></i><i class="fas fa-star red"></i
+					><i class="fas fa-star red"></i><i class="fas fa-star red"></i
+					><i class="fas fa-star-half-alt red"></i> <br />
+				</div>
+				<div class="profileImageContainer">
+					<img
+						class="profileImage"
+						src="assets/khushil.jpeg"
+						alt="Image Not found"
+					/>
+				</div>
+				<h1>Khushil Shah</h1>
 			</div>
-			<br />
-			<div><button class="btn">SHOP NOW</button></div>
 
-		</div>
-		<div>
-			<img src="assets/hero-header.png" alt="Image Not Found" class="hero" />
-		</div>
-	</div>
-	<div class="section2">
-		<div class="heading">
-			<h2>Featured Products</h2>
-			<hr class="underline" />
-		</div>
-		<div class="productrow1">
-			<div class="productBox">
-				<a href="#">
-					<div class="imageContainer1">
-						<img src="assets/mrf-bat.png" alt="Image not found" class="image1" />
-					</div>
-					<div>MRF cricket bat</div>
-					<div>
-						<i class="fas fa-star red"></i><i class="fas fa-star red"></i><i class="fas fa-star red"></i><i
-							class="fas fa-star red"></i><i class="far fa-star red"></i>
-					</div>
-					<div>$60.00</div>
-				</a>
-			</div>
-			<div class="productBox">
-				<a href="#">
-					<div class="imageContainer1">
-						<img src="assets/nike-football.png" alt="Image not found" class="image1" />
-					</div>
-					<div>Nike Football</div>
-					<div>
-						<i class="fas fa-star red"></i><i class="fas fa-star red"></i><i class="fas fa-star red"></i><i
-							class="fas fa-star-half-alt red"></i><i class="far fa-star red"></i>
-					</div>
-					<div>$80.00</div>
-				</a>
-			</div>
-			<div class="productBox">
-				<a href="#">
-					<div class="imageContainer1">
-						<img src="assets/kookabura-ball.png" alt="Image not found" class="image1" />
-					</div>
-					<div>Kookaburra Cricket Ball</div>
-					<div>
-						<i class="fas fa-star red"></i><i class="fas fa-star red"></i><i class="fas fa-star red"></i><i
-							class="fas fa-star red"></i><i class="fas fa-star-half-alt red"></i>
-					</div>
-					<div>$20.00</div>
-				</a>
-			</div>
-			<div class="productBox">
-				<a href="#">
-					<div class="imageContainer1">
-						<img src="assets/nike-shoes.png" alt="Image not found" class="shoes" />
-					</div>
-					<div>Nike Sport Shoes</div>
-					<div>
-						<i class="fas fa-star red"></i><i class="fas fa-star red"></i><i class="fas fa-star red"></i><i
-							class="fas fa-star red"></i><i class="far fa-star red"></i>
-					</div>
-					<div>$30.00</div>
-				</a>
+			<div class="ratingContainer">
+				<i class="fa fa-quote-left fa-3x fa-pull-left red"></i>
+				<div>
+					The quality of products is just amazing. <br />
+					TripleS is my life-time choice.
+				</div>
+				<div>
+					<i class="fas fa-star red"></i><i class="fas fa-star red"></i
+					><i class="fas fa-star red"></i><i class="fas fa-star red"></i
+					><i class="fas fa-star-half-alt red"></i> <br />
+				</div>
+				<div class="profileImageContainer">
+					<img
+						class="profileImage"
+						src="assets/tirth.jpeg"
+						alt="Image Not found"
+					/>
+				</div>
+				<h1>Tirth Savalia</h1>
 			</div>
 		</div>
-		<div class="productrow2">
-			<div class="productBox">
-				<a href="#">
-					<div class="imageContainer1">
-						<img src="assets/jersey.png" alt="Image not found" class="image1" />
-					</div>
-					<div>Cricket Jersey</div>
-					<div>
-						<i class="fas fa-star red"></i><i class="fas fa-star red"></i><i class="fas fa-star red"></i><i
-							class="fas fa-star red"></i><i class="fas fa-star red"></i>
-					</div>
-					<div>$30.00</div>
-				</a>
+		<div class="partner">
+			<div class="heading">
+				<h2>Our Partners</h2>
+				<hr class="underline" />
 			</div>
-			<div class="productBox">
-				<a href="#">
-					<div class="imageContainer1">
-						<img src="assets/nike-shoes.png" alt="Image not found" class="shoes" />
-					</div>
-					<div>Nike Sport Shoes</div>
-					<div>
-						<i class="fas fa-star red"></i><i class="fas fa-star red"></i><i class="fas fa-star red"></i><i
-							class="fas fa-star red"></i><i class="far fa-star red"></i>
-					</div>
-					<div>$30.00</div>
-				</a>
+			<div class="icons">
+				<img
+					src="assets/nike-logo.png"
+					alt="IMAGE NOT FOUND"
+					class="partner-logo"
+				/>
+				<img
+					src="assets/kookaburra-logo.jpg"
+					alt="IMAGE NOT FOUND"
+					class="partner-logo"
+				/>
+				<img
+					src="assets/newbalance-logo.png"
+					alt="IMAGE NOT FOUND"
+					class="partner-logo"
+				/>
+				<img
+					src="assets/spartan-logo.png"
+					alt="IMAGE NOT FOUND"
+					class="partner-logo"
+				/>
+				<img
+					src="assets/mrf-logo.png"
+					alt="IMAGE NOT FOUND"
+					class="partner-logo"
+				/>
 			</div>
-		</div>
-	</div>
-	<div class="section3">
-		<div class="heading">
-			<h2>New Arrivals</h2>
-			<hr class="underline" />
-		</div>
-		<div class="productrow3">
-			<div class="productBox">
-				<a href="#">
-					<div class="imageContainer2">
-						<img src="assets/nike-shoes.png" alt="Image not found" class="image2" />
-					</div>
-					<div>Nike Sport Shoes</div>
-					<div>
-						<i class="fas fa-star red"></i><i class="fas fa-star red"></i><i class="fas fa-star red"></i><i
-							class="fas fa-star red"></i><i class="far fa-star red"></i>
-					</div>
-					<div>$30.00</div>
-				</a>
-			</div>
-			<div class="productBox">
-				<a href="#">
-					<div class="imageContainer2">
-						<img src="assets/nike-shoes.png" alt="Image not found" class="image2" />
-					</div>
-					<div>Nike Sport Shoes</div>
-					<div>
-						<i class="fas fa-star red"></i><i class="fas fa-star red"></i><i class="fas fa-star red"></i><i
-							class="fas fa-star red"></i><i class="far fa-star red"></i>
-					</div>
-					<div>$30.00</div>
-				</a>
-			</div>
-			<div class="productBox">
-				<a href="#">
-					<div class="imageContainer2">
-						<img src="assets/nike-shoes.png" alt="Image not found" class="image2" />
-					</div>
-					<div>Nike Sport Shoes</div>
-					<div>
-						<i class="fas fa-star red"></i><i class="fas fa-star red"></i><i class="fas fa-star red"></i><i
-							class="fas fa-star red"></i><i class="far fa-star red"></i>
-					</div>
-					<div>$30.00</div>
-				</a>
-			</div>
-		</div>
-	</div>
-	<div class="smartBand">
-		<div><img src="assets/mi-exclusive.png" alt="Image not found" /></div>
-		<div class="bandDescription">
-			<div id="des1">Exclusively Available on TripleS Store</div>
-			<div id="des2">Smart Band 4</div>
-			<div id="des3">
-				A must have accessories to track your calories and
-				reach your fitness goal. Get 50% discount on using code phoenix.
-			</div>
-			<div id="des4"><button class="btn">SHOP NOW</button></div>
-		</div>
-	</div>
-	<div class="rating">
-		<div class="ratingContainer">
-			<i class="fa fa-quote-left fa-3x fa-pull-left red"></i>
-			<div>
-				Sports equipment? <br> Just TripleS it !
-			</div>
-			<div>
-				<i class="fas fa-star red"></i><i class="fas fa-star red"></i><i class="fas fa-star red"></i><i
-					class="fas fa-star red"></i><i class="fas fa-star red"></i> <br />
-			</div>
-			<div class="profileImageContainer">
-				<img class="profileImage" src="assets/Nishit.jpeg" alt="Image Not found" />
-			</div>
-			<h1>Nishit Mistry</h1>
 		</div>
 
-		<div class="ratingContainer">
-			<i class="fa fa-quote-left fa-3x fa-pull-left red"></i>
-			<div>
-				Genuine , Longlasting and cheap!
-				<br>
-				That's what TripleS provides.
+		<div class="footer">
+			<div class="footer-link">
+				<a class="help" href="#">Help</a>
+				<a class="help" href="#">Contact Us</a>
+				<a class="help" href="#">F.A.Q.</a>
+				<a class="help" href="#">Size Guide</a>
+				<a class="help" href="#">Sales Exclusion</a>
 			</div>
-			<div>
-				<i class="fas fa-star red"></i><i class="fas fa-star red"></i><i class="fas fa-star red"></i><i
-					class="fas fa-star red"></i><i class="fas fa-star-half-alt red"></i> <br />
-			</div>
-			<div class="profileImageContainer">
-				<img class="profileImage" src="assets/khushil.jpeg" alt="Image Not found" />
-			</div>
-			<h1>Khushil Shah</h1>
-		</div>
-
-		<div class="ratingContainer">
-			<i class="fa fa-quote-left fa-3x fa-pull-left red"></i>
-			<div>
-				The quality of products is just amazing. <br>
-				TripleS is my life-time choice.
-			</div>
-			<div>
-				<i class="fas fa-star red"></i><i class="fas fa-star red"></i><i class="fas fa-star red"></i><i
-					class="fas fa-star red"></i><i class="fas fa-star-half-alt red"></i> <br />
-			</div>
-			<div class="profileImageContainer">
-				<img class="profileImage" src="assets/tirth.jpeg" alt="Image Not found" />
-			</div>
-			<h1>Tirth Savalia</h1>
-		</div>
-	</div>
-	<div class="partner">
-		<div class="heading">
-			<h2>Our Partners</h2>
-			<hr class="underline" />
-		</div>
-		<div class="icons">
-			<img src="assets/nike-logo.png" alt="IMAGE NOT FOUND" class="partner-logo" />
-			<img src="assets/kookaburra-logo.jpg" alt="IMAGE NOT FOUND" class="partner-logo" />
-			<img src="assets/newbalance-logo.png" alt="IMAGE NOT FOUND" class="partner-logo" />
-			<img src="assets/spartan-logo.png" alt="IMAGE NOT FOUND" class="partner-logo" />
-			<img src="assets/mrf-logo.png" alt="IMAGE NOT FOUND" class="partner-logo" />
-		</div>
-	</div>
-
-	<div class="footer">
-		<div class="footer-link">
-			<a class="help" href="#">Help</a>
-			<a class="help" href="#">Contact Us</a>
-			<a class="help" href="#">F.A.Q.</a>
-			<a class="help" href="#">Size Guide</a>
-			<a class="help" href="#">Sales Exclusion</a>
-		</div>
-		<div class="connectSection">
-			<div class="footer-head"><i class="fas fa-volleyball-ball"
-					style="padding-right:7px; font-size: 35px;"></i>TripleS</div>
-			<p>Connect with us and our beloved partner The LJ phoenix.</p>
-			<div>
-				<i class="fab fa-twitter social-media twitter"></i>
-				<i class="fab fa-linkedin social-media linkedin"></i>
-				<i class="fab fa-instagram social-media instagram"></i>
-				<i class="fab fa-facebook-square social-media facebook"></i>
-				<i class="fab fa-whatsapp-square social-media whatsapp"></i>
-				<a href=""><i class="fab fa-phoenix-squadron social-media phoeenix"></i></a>
+			<div class="connectSection">
+				<div class="footer-head">
+					<i
+						class="fas fa-volleyball-ball"
+						style="padding-right: 7px; font-size: 35px"
+					></i
+					>TripleS
+				</div>
+				<p>Connect with us and our beloved partner The LJ phoenix.</p>
+				<div class="social">
+					<i class="fab fa-twitter social-media twitter"></i>
+					<i class="fab fa-linkedin social-media linkedin"></i>
+					<i class="fab fa-instagram social-media instagram"></i>
+					<i class="fab fa-facebook-square social-media facebook"></i>
+					<i class="fab fa-whatsapp-square social-media whatsapp"></i>
+					<a href=""
+						><i class="fab fa-phoenix-squadron social-media phoeenix"></i
+					></a>
+				</div>
 			</div>
 		</div>
-	</div>
-</body>
-
+	</body>
 </html>
