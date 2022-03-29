@@ -148,6 +148,9 @@ a{
     font-size: 42px;
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
+.para{
+    padding-bottom:5px;
+}
 .btn{
     background-color: #cf363e;
     padding: 13px 40px;
@@ -404,9 +407,18 @@ align-items: center;
 }
 .footer-head{
     color: #cf363e;
+    font-size: 25px;
+    padding-bottom:20px;
 }
 .social-media{
+    padding-top:5px;
     margin: 10px;
     font-size: 20px;
     cursor: pointer;
+}
+.connectSection
+{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
 }
